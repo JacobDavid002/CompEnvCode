@@ -1,0 +1,26 @@
+html, body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(136, 136, 136);
+
+}
+
+canvas {
+  display: block;
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers the sketch horizontally. */
+  /* justify-content: center; */
+
+}
+
+.boss {
+  z-index: 1;
+}
